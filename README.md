@@ -1,19 +1,20 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+ <img width=200px height=200px src="https://png.pngtree.com/png-vector/20191018/ourmid/pngtree-forest-fire-icon-cartoon-style-png-image_1824449.jpg" alt="FireScope"></a>
 </p>
 
 <h3 align="center">Fire Scope</h3>
 
 <div align="center">
 
-<h3 align="center">WORK IN PROGRESS</h3>
+<h3 align="center">US Wildfire Analysis and Modeling Investigation</h3>
 
 </div>
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> 
+  We will study the wildfire dataset that is available with many features and 1.88 million records. We are interested in location and time variant visualizations and finding what outcomes could be predicted and with what accuracy.
     <br> 
 </p>
 
@@ -21,91 +22,48 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
+- [Prerequisites](#prereq)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+Dataset: https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/data
+This dataset is a spatial database capturing wildfire incidents in the US from 1992 to 2015. Each record is geo-referenced with key attributes like discovery date, final fire size, and precise location per the Public Land Survey System (PLSS) standards. Originating from various fire reporting agencies and updated for the national Fire Program Analysis (FPA) system, this dataset provides a granular view of wildfire trends, making it a robust resource for analytical and visualization projects.
+
+Project goals: Visualize with a heatmap locations of wildfires, and visualize trends over time of average size and count of wildfires
+Find the features that most influence the wildfire outcomes
+Study wildfire prevalence over time, and see investigate ways to model and predict outcomes such as the size of the wildfire as well as the cause of the wildfire.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+- Clone the github project
+- Download dataset from https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/data
+- Unzip archives into /data directory
+- Execute our notebook cells to exercise the analysis and visualizations
 
-### Prerequisites
+### Prerequisites <a name = "prereq"></a>
 
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
+Install the following additional python modules:
+- sqlite3
+- zipfile
+- matplotlib
+- seaborn
+- folium
+- plotly
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [JupyterNotebook](https://jupyter.org/) - Jupyter Python Notebook
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+- Sivanaveen Siddartha Nasari
+- Connor McColl
+- Rajeev Buggaveeti
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+- Kaggle, and the folks behind the 188-million-us-wildfires dataset: https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/data
+- pngtree for the icon
