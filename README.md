@@ -36,6 +36,9 @@ Project goals: Visualize with a heatmap locations of wildfires, and visualize tr
 Find the features that most influence the wildfire outcomes
 Study wildfire prevalence over time, and see investigate ways to model and predict outcomes such as the size of the wildfire as well as the cause of the wildfire.
 
+![image](https://github.com/connormccoll/fire-scope/assets/41196898/f6128187-e570-4d31-8180-0edbf5745338)
+
+
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 - Clone the github project
